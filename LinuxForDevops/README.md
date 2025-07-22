@@ -40,3 +40,6 @@ Ex:- (ln -s /workspaces/Devops/LinuxForDevops/Demo/demofile.txt soft.tx)
 ln  path of file shortcutname = make a hardlink shortcut of a file (ln link) 
                     [hardlink not deleted after main file deleted]
 Ex:- (ln /workspaces/Devops/LinuxForDevops/Demo/demofile.txt soft.tx)
+
+cut -b 1 filename    = it prints 1 byte from the file
+cut -b 1-4 filename  = it prints 4 bytes from the file

@@ -1,1 +1,3 @@
 Hello newfile
+check commands for the practice.
+check linux commands for the devops use.
