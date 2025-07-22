@@ -43,3 +43,11 @@ Ex:- (ln /workspaces/Devops/LinuxForDevops/Demo/demofile.txt soft.tx)
 
 cut -b 1 filename    = it prints 1 byte from the file
 cut -b 1-4 filename  = it prints 4 bytes from the file
+
+echo "Hello" | tee hello.txt = 'tee' takes i/p and print it on display as well as in a file
+sort filename = sorted the words in the file
+diff filename filename = to check difference in two files
+
+SSH KEY generation through Github
+#generate ssh key from github
+1st : ssh-keygen -t rsa -b 4096 -C "emailid"
