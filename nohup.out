@@ -1,0 +1,7 @@
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G   11G   20G  36% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/root        29G   14G   16G  48% /vscode
+/dev/sda1        44G  2.0G   40G   5% /tmp
+/dev/loop4       32G   11G   20G  36% /workspaces

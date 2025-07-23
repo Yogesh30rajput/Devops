@@ -22,6 +22,7 @@ echo "hello" = print hello message on terminal display
 echo "hello friends" > filename = send the message into the mention file
 echo "Hello newfile" > newfile.txt = it creates automatically file if file is not present
 head filename  =  print top lines from the file
+head -n 5 filename  = print top 5 lines from the file
 tail filename  =  print bottom lines from the file
 tail -f filename  = it used to check logs in the file, like monitoring new lines
 less/more filename = display information in paginated form
@@ -51,3 +52,20 @@ diff filename filename = to check difference in two files
 SSH KEY generation through Github
 #generate ssh key from github
 1st : ssh-keygen -t rsa -b 4096 -C "emailid"
+2nd : then enter passphrase
+
+#to check disk usage in system
+df   =  disk file usage details
+df -h  = disk file usage details in higher level
+du . = current folder usage details
+
+#process related commands
+top = it shows all processes of the system
+        type Q to quiet the top mode
+ps  = it shows perticular process with pid
+fuser  = which file process used
+kill  = to kill process
+free / free -h = it shows ram usage details
+nohup "command"  = to store logs in the file
+vmstat  = it shows ram / virtual memory's details
+vmstat -a  = it shown ram/ virtual memory's details with active/ inactive
