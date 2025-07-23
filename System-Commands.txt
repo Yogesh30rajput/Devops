@@ -1,0 +1,18 @@
+System-level Commands in Linux
+
+uname   = to know the system platform  (macos  =  Darwin  / other tools/os  = Linux)
+uptime  = display system ON time
+
+who     = display which users login when, how many users are login
+whoami  = display current login user name
+which   = display which filers are executed, display path of the things
+id      = display uid, gid, groups
+sudo    = (super use do / root user) it's a group of root users who have administrative permissions
+shutdown = to do shutdown the system but not possible directly 
+            so use # sudo shutdown
+shudown -c = it cancels shutdown
+sudo reboot = it's reboot the system
+apt     = (application package manager)(provides searching and managing packages)
+    *sudo apt install docker.io  = to insatll docker
+    *sudo apt-get install docker.io = get online then install docker
+    *sudo apt-get update  = it update our system
