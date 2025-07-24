@@ -14,4 +14,3 @@ sudo userdel username   =  to delete/remove the user
 sudo gpasswd -a username groupname  = add users into the group  (-a  for add)
 sudo gpasswd -M username groupname  = add multiple users into the group (-m for multiple users)
 sudo groupdel groupname   = to delete the group from the system
-
