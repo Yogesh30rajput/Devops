@@ -1,0 +1,33 @@
+File-Permission Commands:
+
+chmod      = change mode of files or directories
+ls -l      = it shows list of files in longer (detailed) format:
+
+directories = drwxrwxrwx  (d - directories,  1st rwx = read write execute for User/Owner, 
+                                             2nd rwx = read write execute for Groups,
+                                             3rd rwx = read write execute for All/Everyone)
+
+files       = -rw-r--r--  (-r = simple file, 1st rw- = read write for User/Owner, 
+                                             2nd r-- = read only for Groups,
+                                             3rd r-- = read only for All/Everyone)
+
+(0 = --- |  1 = --X | 2 = -W- | 3 = -WX |4 = R-- |5 = R-X |6 = RW- |7 = RWX )
+
+chmod 777 filename      =  give read,write,execute Permission to all(User,Groups,others).
+
+
+chmod [who][+/-=][Permission] filename  = to give Permissions to User,Groups,others.
+
+chmod u+x script.sh  ==   # Give execute to owner
+chmod g-w file.txt   ==   # Remove write from group
+chmod o=r myfile.txt ==   # Others can only read
+chmod a+x tool.sh    ==   # Everyone can execute
+
+umask    =  by default Permission for the newly created file
+
+chown   = change ownership/user of the file
+#sudo chown username(new) filename  = changing ownership of the with the username
+
+chgrp  = change group of the file
+#sudo chgrp groupname(new) filename
+
