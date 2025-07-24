@@ -1,0 +1,17 @@
+User and Group management commands
+
+useradd -m username   =  to add/create new user into the system
+sudo useradd -m username   = it creates user directly
+sudo passwd username  =  to set password for the new user
+
+su username    = switch between users (switch user)
+exit    =   to go into the primary user
+cat /etc/passwd  = it display the list of users
+
+sudo groupadd groupname   = it create a group into the system
+cat /etc/group  = it display the list of groups
+sudo userdel username   =  to delete/remove the user
+sudo gpasswd -a username groupname  = add users into the group  (-a  for add)
+sudo gpasswd -M username groupname  = add multiple users into the group (-m for multiple users)
+sudo groupdel groupname   = to delete the group from the system
+

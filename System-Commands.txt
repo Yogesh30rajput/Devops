@@ -16,3 +16,5 @@ apt     = (application package manager)(provides searching and managing packages
     *sudo apt install docker.io  = to insatll docker
     *sudo apt-get install docker.io = get online then install docker
     *sudo apt-get update  = it update our system
+    *sudo apt remove docker.io  = to uninstall or remove docker from the system
+
