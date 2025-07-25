@@ -1,0 +1,18 @@
+Compression Commands :
+        *Multiple files and folders are stored in a single file. which is compressed file or zip file.
+
+sudo apt install zip    = to install zip package in the system.
+zip -r filename.zip(new) filename(source)  = to create zip file.
+unzip filename.zip   = unzipped the zip file
+
+tar -cvzf filename.gz filename  = make tar zip file (c- create, v- verbose, z- zip, f- file)
+tar -xvcf filename.tar.gz    = extract zip tar files
+
+to send/copy file local to server or server to local
+scp = secure/server copy
+#scp -i "path of the pem file" filename(source file copied one) username: copy folder path(destination path)
+
+rsync (remote sync)  =  sync folder or file between server and local system
+#rsync -e "ssh -i /path of PEM file" -avz path/local/folder user remote server path
+                                        (a = archive, v= verbose, z = zipfile)
+
