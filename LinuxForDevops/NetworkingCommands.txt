@@ -1,0 +1,5 @@
+Networking Commands Practice :
+
+ping  webaddress.com    =  to check application/site status  (Data Received / transfer status)
+netstat  (network status) = first install netstat to run Command
+netstat     = it shows systems active internet connections
