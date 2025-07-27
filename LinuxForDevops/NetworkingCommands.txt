@@ -1,5 +1,23 @@
 Networking Commands Practice :
 
 ping  webaddress.com    =  to check application/site status  (Data Received / transfer status)
-netstat  (network status) = first install netstat to run Command
-netstat     = it shows systems active internet connections
+
+netstat / ss  (network status) = first install netstat to run Command
+#netstat     = it shows systems active internet connections
+infig (interface)  = shows network interface card
+traceroute site name(youtube.com)   = to trace the route of server
+tracepath sitename (youtube.com)    = to trace the path of server from source to destination
+
+mtr sitename    =  to do ping and tracepath together (my trace route)
+
+nslookup sitename   = server is working or not.
+
+telnet sitename portno.  = gives server's status
+
+hostname     = it shows system hostname
+
+hostname sitename   = it shows site/server's hostname
+
+ip address show    =  it shows ip address of system
+
+iw config         = it shows wireless connections or extensions of the system
