@@ -20,3 +20,5 @@ it helps to find pattern or expression in the file or system.
 #grep operation filename (grep INFO app.log)  =  it find INFO from the file
 #grep -c operation filename (grep -c INFO app.log)   = it find count(-c) of INFO from the app.log file
 
+#ps aux | grep root   = it helps to find root word into the process list
+#ps aux | grep root | awk '{print $1}' = it will print column 1 data where root word exist from process list
