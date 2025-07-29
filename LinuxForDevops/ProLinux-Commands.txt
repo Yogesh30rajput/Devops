@@ -1,0 +1,22 @@
+Other Important Commands in Linux:
+
+awk = it required structured format data(csv,tsv). it gives the programming concept to filter the data.
+
+#awk '{print}' app.log
+     'operation' filename
+#awk '/INFO/ {ount++} END {print count}' app.log
+#awk '$2 >="08:53:00" && $2 <= "08:53:59" {print $2, $3, $4}' app.log
+    column no.  --- time range ---        print column         filename
+
+sed = it perform on expression concept. sed works line by line with any format.
+#sed -n '/INFO/p' app.log (p means print)
+#sed 's/INFO/LOG/g' app.log    =  it replace INFO as LOG in file (s = substring, g = global)
+#sed -n -e '/INFO/=' app.log   = it shows existence of INFO in the file (= showing line no.)
+#sed '1,10 s/INFO/LOG/g' app.log   = between line 1-10 it changes INFO to LOG with substring in file
+
+grep = global regular expression pattern
+it helps to find pattern or expression in the file or system.
+
+#grep operation filename (grep INFO app.log)  =  it find INFO from the file
+#grep -c operation filename (grep -c INFO app.log)   = it find count(-c) of INFO from the app.log file
+

@@ -1,5 +1,7 @@
 Networking Commands Practice :
 
+jq   = manage data/info in well manner
+
 ping  webaddress.com    =  to check application/site status  (Data Received / transfer status)
 
 netstat / ss  (network status) = first install netstat to run Command
@@ -21,3 +23,25 @@ hostname sitename   = it shows site/server's hostname
 ip address show    =  it shows ip address of system
 
 iw config         = it shows wireless connections or extensions of the system
+
+dig sitename   =  it gives details of server/site's hostname and ip address
+
+whois sitename    = it gives details of domain name, registry domain id, registration details of site
+
+ifplugstatus    = gives details of interfaces plug / unplug status
+
+curl   = is used to call api endpoints
+# curl -X GET api address/siteaddress  = get the information from the server through api
+
+wget  = it helps to download anything from the internet
+#wget link/address of file    =  download the data from internet
+
+iptables   = ip of interfaces in table format
+sudo iptables
+
+watch top   =  it watch all process for every 2 seconds
+
+nmap  = network map 
+nmap -v sitename     =  network details of site/server
+
+route     = show complete route tables
